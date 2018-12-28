@@ -7,3 +7,7 @@ Typical message:
 `message ARGB32 {
     uint32 argb = 1;
 }`
+Response:
+`message RGBA32 {
+    uint32 rgba = 1;
+}`
