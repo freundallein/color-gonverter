@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package gonverter;
+
+service GOnverter {
+    rpc ConvertARGB_RGBA32(stream ARGB32) returns (stream RGBA32) {}
+    rpc ConvertARGB_RGBA64(stream ARGB64) returns (stream RGBA64) {}
+}
+
+
+message ARGB32 {
+    uint32 argb = 1;
+}
+
+message RGBA32 {
+    uint32 rgba = 1;
+}
+
+message ARGB64 {
+    uint64 argb = 1;
+}
+
+message RGBA64 {
+    uint64 rgba = 1;
+}
