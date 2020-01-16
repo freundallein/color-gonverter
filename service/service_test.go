@@ -1,7 +1,7 @@
 package service
 
 import (
-	pb "../protobuf"
+	pb "github.com/freundallein/color-gonverter/protobuf"
 	"google.golang.org/grpc"
 	"testing"
 )

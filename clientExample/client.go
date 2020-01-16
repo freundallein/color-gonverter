@@ -1,9 +1,9 @@
 package main
 
 import (
-	pb "../protobuf"
 	"context"
 	"fmt"
+	pb "github.com/freundallein/color-gonverter/protobuf"
 	"google.golang.org/grpc"
 	"io"
 	"os"
