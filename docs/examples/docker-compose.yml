@@ -1,0 +1,14 @@
+version: "3.5"
+
+networks:
+  network:
+    name: example-network
+    driver: bridge
+
+services:
+  gonverter:
+    image: freundallein/gonverter:latest
+    container_name: gonverter
+    restart: always
+    networks: 
+      - network
