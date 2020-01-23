@@ -1,5 +1,6 @@
 # color-gonverter
 [![Build Status](https://travis-ci.org/freundallein/color-gonverter.svg?branch=master)](https://travis-ci.org/freundallein/color-gonverter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/freundallein/color-gonverter)](https://goreportcard.com/report/github.com/freundallein/color-gonverter)
 
 Simple gRPC service for converting color-points from ARGB to RGBA (32/64bit) 
 
