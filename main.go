@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"net"
-	"time"
 	pb "github.com/freundallein/color-gonverter/protobuf"
 	service "github.com/freundallein/color-gonverter/service"
 	"google.golang.org/grpc"
+	"log"
+	"net"
+	"time"
 )
 
 const (

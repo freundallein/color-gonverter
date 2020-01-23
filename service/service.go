@@ -1,10 +1,10 @@
 package service
 
 import (
-	"log"
 	c "github.com/freundallein/color-gonverter/converter"
 	pb "github.com/freundallein/color-gonverter/protobuf"
 	"io"
+	"log"
 )
 
 type Gonverter struct{}
